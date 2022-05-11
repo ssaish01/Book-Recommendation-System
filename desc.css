@@ -1,0 +1,96 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+body
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/thumb2-library-concepts-stack-of-books-education-background-books-background-with-books.jpg);
+	background-position: center;
+	background-size: cover;
+
+}
+.book-details
+{
+	margin: 3% 0;
+}
+.left-box
+{
+	color: black;
+	margin: 15px 0;
+	padding: 20px;
+}
+.left-box h1
+{
+	color: #D21502;
+	font-family: Lucida Sans Unicode;
+}
+.left-box h5
+{
+	color: black;
+	font-family: Lucida Sans Unicode;
+}
+.left-box p
+{
+	color: #fff;
+	font-family: Lucida Sans Unicode;
+}
+
+.author img
+{
+	height: 80px;
+	width:  80px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.left-box a
+{
+	text-decoration: none !important; 
+	border-radius: 30px;
+	padding: 7px 10px;
+	margin-top: 20px;
+	color: black !important;
+	background: #D21502;
+	border: 1px solid black;
+	font-weight: 600;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.download-btn:hover {
+	background-color: transparent;
+}
+.read-btn:hover{
+	background-color: transparent;
+}
+.fa
+{
+	margin: 0 5px; 
+}
+.book-img
+{
+	height: 350px;
+	box-shadow: -4px 4px 5px 0 #000;
+}
+.books h5{
+	margin-left: : 30px;
+	color: black;
+	font-family: Lucida Sans Unicode;
+	margin: 15px 0;
+	margin-left: 200px;
+	
+}
+.books img
+{
+	width: 70%;
+	margin-top: 15px;
+	box-shadow: -4px 4px 5px 0 #000;
+	cursor: pointer;
+	transition: 1s;
+	margin: 15px 0;
+	margin-left: 200px;
+	
+}
+.books img:hover{
+	transform: translateY(-10px);
+}

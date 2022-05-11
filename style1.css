@@ -1,0 +1,75 @@
+body{
+	padding: 0;
+	margin: 0;
+	background: rgb(35,33,33);
+}
+
+
+
+.navbar{
+	height: 130px;
+	width: 100%;
+	background: #000;
+	margin-top: -35px;
+}
+
+.head h1{
+	color:red;
+	font-size: 75px;
+	font-style: bold;
+	top: -45px;
+	left: 10px;
+	position: absolute;
+	padding-bottom: 30px;
+	font-family: impact;
+	display: block;
+	perspective: 1000px;
+	perspective-origin: 50% 0;
+	transform-origin: 0 0;
+	transform: scaleX(80) rotateY(89.5deg);
+}
+
+.menu{
+	position: absolute;
+	left: 18%;
+	top: 38px;
+	font-size: 25px;
+	color: #fff;
+	word-spacing: 10px;
+}
+
+.menu a{
+	color: #fff;
+	text-decoration: none;
+	word-spacing: 30px;
+
+}
+
+.menu2{
+	position: absolute;
+	left: 80%;
+	top: 35px;
+	font-size: 30px;
+	word-spacing: 15px;
+}
+
+.menu2 a{
+	color: #fff;
+	text-decoration: none;
+	word-spacing: 15px;
+	margin-left: 10px;
+}
+
+table{
+	margin-left: 20px;
+}
+
+img{
+	margin-left: 15px;
+	width: 15%;
+}
+
+h1{
+	color: #fff;
+	margin-left: 5px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Search</title>
+	<style>
+		body{
+			background-image: url(bg.jpg);
+			background-color: #000;
+			text-align: center;
+			margin-top: 10%;
+			color: white;
+		}
+		h1{
+			font-size: 80px;
+		}
+		input{
+			width:50%;
+	padding: 10px 5px;
+	margin: 5px 0;
+	border: 10px;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+font-size: 20px;
+text-align: center;
+background-color: white;
+		}
+		form button{
+	width: 30%;
+	border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: red;
+}
+	</style>
+</head>
+<body>
+	<h1>Search Books</h1><br><br><br>
+	<div class="main">
+		<form action="search.php" method="post">
+		<input type="text" name="book_name" placeholder="Type name of book"><br><br><br><br>
+		<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+	</div>
+</body>
+</html>

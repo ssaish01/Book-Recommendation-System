@@ -1,0 +1,56 @@
+
+
+input[type=text] {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  background-color: #3CBC8D;
+  color: white;
+}
+
+
+body{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(bg.jpg);
+	background-position: center;
+	background-size: cover;
+	color: white;
+	align-items: center;
+	font-size: 24px;
+	text-align: center;
+}
+
+form{
+	width: 100%;
+	position: absolute;
+	top: 80px;
+	bottom: 40px;
+	font-size: 24px;
+	transition: 0.5s;
+	text-align:  center;
+	color: #fff;
+	
+	height: 500px;
+	margin-top: 5px;
+	margin-bottom: 500px;
+}
+
+.content
+{
+	text-align:  center;
+}
+
+form button{
+	width: 40%;
+	border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: red;
+}
+

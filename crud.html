@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Admin page</title>
+        <style>
+form{
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    bottom: 40px;
+    font-size: 24px;
+    transition: 0.5s;
+    text-align:  center;
+    color: #fff;
+    height: 500px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+    background-image: url(img/20191219170611-GettyImages-1152794789.jpe);
+    height: 200%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+input{
+width:40%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+font-size: 20px;
+color: #fff;
+text-align: center;
+
+}
+
+.buttons input
+{
+    width: 20%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background:#D21502;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(35,33,33);
+
+}
+
+
+
+.navbar{
+    height: 130px;
+    width: 100%;
+    background: #000;
+    margin-top: -35px;
+}
+
+.head h1{
+    color:red;
+    font-size: 75px;
+    font-style: bold;
+    top: -45px;
+    left: 10px;
+    position: absolute;
+    padding-bottom: 30px;
+    font-family: impact;
+    display: block;
+    perspective: 1000px;
+    perspective-origin: 50% 0;
+    transform-origin: 0 0;
+    transform: scaleX(80) rotateY(89.5deg);
+}
+
+.menu{
+    position: absolute;
+    left: 18%;
+    top: 38px;
+    font-size: 25px;
+    color: #fff;
+    word-spacing: 10px;
+}
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    word-spacing: 30px;
+
+}
+
+.menu2{
+    position: absolute;
+    left: 80%;
+    top: 35px;
+    font-size: 30px;
+    word-spacing: 15px;
+}
+
+.menu2 a{
+    color: #fff;
+    text-decoration: none;
+    word-spacing: 15px;
+    margin-left: 10px;
+}
+
+table{
+    margin-left: 20px;
+}
+
+img{
+    margin-left: 15px;
+    width: 15%;
+}
+
+h1{
+    color: #fff;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 50px;
+}
+
+        </style>
+    </head>
+
+    <body>
+        <center><img src="img/cooltext365791649618201.pn" alt=""></center>
+        <div class="navbar">
+    <br><br>    
+    <div class="menu">
+
+        <a href="home.html">Home</a>
+        <a href="series.html">Series</a>
+        <a href="novel.html">Novels</a>
+        <a href="recent.html">RecentlyAdded</a>
+        <a href="forms.html">Recommendations</a>
+        <a href="search.html">Search</a>
+        <a href="crud.html">ViewStock</a>
+    </div>
+
+    </div>
+    <h1>Stock Details</h1>
+        <form action="php_crud.php" method="post">
+
+<br><br>
+            Book Id:<br><br> <input type="number" name="book_id" placeholder="Please type the id of the book (number)" ><br><br>
+            Book Name:<br><br><input type="text" name="book_name" placeholder="Please type the name of the book" ><br><br>
+            Author Name: <br><br><input type="text" name="author_name" placeholder="Please type the name of the author" ><br><br>
+            Book Type: <br><br><input type="text" name="book_type" placeholder="Please mention the type of the book" ><br><br>
+            Fiction Type: <br><br> <input type="text" name="fiction_type" placeholder="Please type the fiction of the book" ><br><br>
+            Genre: <br><br><input type="text" name="genre" placeholder="Please type the genre of the book" ><br><br>
+            Description: <br><br><input type="text" name="description" placeholder="Please type a short description of the book" ><br><br>
+            <div class="buttons">
+                <!-- Input For Add Values To Database-->
+                <input type="submit" name="insert" value="Add">
+                
+                <!-- Input For Edit Values -->
+                <input type="submit" name="update" value="Update">
+                
+                <!-- Input For Clear Values -->
+                <input type="submit" name="delete" value="Delete">             
+                <!-- Input For Find Values With The given ID -->
+                <input type="submit" name="search" value="Find">
+            </div>
+        </form>
+    </body>
+</html>
